@@ -1,0 +1,7 @@
+dump.*
+*.png
+restart.*
+*.vmd
+*.out
+log.*
+bck*
