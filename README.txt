@@ -1,5 +1,5 @@
 printcosine.py: writes plumed input file to be used in LAMMPS. includes how to calculate theta_z and what bias value to use.
-printangles.py: writes plumed input file to be used in LAMMPS. includes how to bias z-displacement.
+printatoms.py: writes plumed input file to be used in LAMMPS. includes how to bias z-displacement.
 run.sh: runs LAMMPS input file for different bias values
 in_new.340: short-time input file for testing if biasing procedure works.
 in.long: longer-time input file to allow equilibration at a aprticular bias value.
