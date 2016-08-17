@@ -3,5 +3,5 @@ dump.*
 restart.*
 *.vmd
 *.out
-log.*
+log*
 bck*
