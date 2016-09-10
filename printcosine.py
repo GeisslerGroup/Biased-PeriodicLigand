@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import argparse
 
 parser = argparse.ArgumentParser(description="")
-parser.add_argument("-bias", type=float, default=30000.0, help="bias value for spring constant")
+parser.add_argument("-bias", type=float, default=2500.0, help="bias value for spring constant")
 parser.add_argument("-at", type=float, default=-0.262, help="average value of order parameter in biased simulation")
 args   = parser.parse_args()
 
@@ -22,8 +22,8 @@ for i in range(1, count):
     str_out = str_out + "\nMATHEVAL ...\n"
     str_out = str_out + "LABEL=theta{}\nARG=d{}.x,d{}.y,d{}.z,".format(i, i, i, i)
     str_out = str_out.rstrip(",")
-    str_out = str_out + "\nFUNC=acos(y/sqrt(x*x+y*y+z*z))\n"
-    str_out = str_out + "PERIODIC=NO\n"
+    str_out = str_out + "\nFUNC=atan(sqrt(x*x+z*z)/y)\n"
+    str_out = str_out + "PERIODIC={-pi,pi}\n"
     str_out = str_out + "... MATHEVAL\n"
 
 str_out = str_out + "\navgtheta: COMBINE ARG="
