@@ -242,1686 +242,1686 @@ d240: DISTANCE ATOMS=10302,10311 COMPONENTS
 MATHEVAL ...
 LABEL=theta1
 ARG=d1.x,d1.y,d1.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta2
 ARG=d2.x,d2.y,d2.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta3
 ARG=d3.x,d3.y,d3.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta4
 ARG=d4.x,d4.y,d4.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta5
 ARG=d5.x,d5.y,d5.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta6
 ARG=d6.x,d6.y,d6.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta7
 ARG=d7.x,d7.y,d7.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta8
 ARG=d8.x,d8.y,d8.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta9
 ARG=d9.x,d9.y,d9.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta10
 ARG=d10.x,d10.y,d10.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta11
 ARG=d11.x,d11.y,d11.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta12
 ARG=d12.x,d12.y,d12.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta13
 ARG=d13.x,d13.y,d13.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta14
 ARG=d14.x,d14.y,d14.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta15
 ARG=d15.x,d15.y,d15.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta16
 ARG=d16.x,d16.y,d16.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta17
 ARG=d17.x,d17.y,d17.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta18
 ARG=d18.x,d18.y,d18.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta19
 ARG=d19.x,d19.y,d19.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta20
 ARG=d20.x,d20.y,d20.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta21
 ARG=d21.x,d21.y,d21.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta22
 ARG=d22.x,d22.y,d22.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta23
 ARG=d23.x,d23.y,d23.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta24
 ARG=d24.x,d24.y,d24.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta25
 ARG=d25.x,d25.y,d25.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta26
 ARG=d26.x,d26.y,d26.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta27
 ARG=d27.x,d27.y,d27.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta28
 ARG=d28.x,d28.y,d28.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta29
 ARG=d29.x,d29.y,d29.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta30
 ARG=d30.x,d30.y,d30.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta31
 ARG=d31.x,d31.y,d31.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta32
 ARG=d32.x,d32.y,d32.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta33
 ARG=d33.x,d33.y,d33.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta34
 ARG=d34.x,d34.y,d34.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta35
 ARG=d35.x,d35.y,d35.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta36
 ARG=d36.x,d36.y,d36.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta37
 ARG=d37.x,d37.y,d37.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta38
 ARG=d38.x,d38.y,d38.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta39
 ARG=d39.x,d39.y,d39.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta40
 ARG=d40.x,d40.y,d40.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta41
 ARG=d41.x,d41.y,d41.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta42
 ARG=d42.x,d42.y,d42.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta43
 ARG=d43.x,d43.y,d43.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta44
 ARG=d44.x,d44.y,d44.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta45
 ARG=d45.x,d45.y,d45.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta46
 ARG=d46.x,d46.y,d46.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta47
 ARG=d47.x,d47.y,d47.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta48
 ARG=d48.x,d48.y,d48.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta49
 ARG=d49.x,d49.y,d49.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta50
 ARG=d50.x,d50.y,d50.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta51
 ARG=d51.x,d51.y,d51.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta52
 ARG=d52.x,d52.y,d52.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta53
 ARG=d53.x,d53.y,d53.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta54
 ARG=d54.x,d54.y,d54.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta55
 ARG=d55.x,d55.y,d55.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta56
 ARG=d56.x,d56.y,d56.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta57
 ARG=d57.x,d57.y,d57.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta58
 ARG=d58.x,d58.y,d58.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta59
 ARG=d59.x,d59.y,d59.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta60
 ARG=d60.x,d60.y,d60.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta61
 ARG=d61.x,d61.y,d61.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta62
 ARG=d62.x,d62.y,d62.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta63
 ARG=d63.x,d63.y,d63.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta64
 ARG=d64.x,d64.y,d64.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta65
 ARG=d65.x,d65.y,d65.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta66
 ARG=d66.x,d66.y,d66.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta67
 ARG=d67.x,d67.y,d67.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta68
 ARG=d68.x,d68.y,d68.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta69
 ARG=d69.x,d69.y,d69.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta70
 ARG=d70.x,d70.y,d70.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta71
 ARG=d71.x,d71.y,d71.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta72
 ARG=d72.x,d72.y,d72.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta73
 ARG=d73.x,d73.y,d73.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta74
 ARG=d74.x,d74.y,d74.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta75
 ARG=d75.x,d75.y,d75.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta76
 ARG=d76.x,d76.y,d76.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta77
 ARG=d77.x,d77.y,d77.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta78
 ARG=d78.x,d78.y,d78.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta79
 ARG=d79.x,d79.y,d79.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta80
 ARG=d80.x,d80.y,d80.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta81
 ARG=d81.x,d81.y,d81.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta82
 ARG=d82.x,d82.y,d82.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta83
 ARG=d83.x,d83.y,d83.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta84
 ARG=d84.x,d84.y,d84.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta85
 ARG=d85.x,d85.y,d85.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta86
 ARG=d86.x,d86.y,d86.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta87
 ARG=d87.x,d87.y,d87.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta88
 ARG=d88.x,d88.y,d88.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta89
 ARG=d89.x,d89.y,d89.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta90
 ARG=d90.x,d90.y,d90.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta91
 ARG=d91.x,d91.y,d91.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta92
 ARG=d92.x,d92.y,d92.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta93
 ARG=d93.x,d93.y,d93.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta94
 ARG=d94.x,d94.y,d94.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta95
 ARG=d95.x,d95.y,d95.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta96
 ARG=d96.x,d96.y,d96.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta97
 ARG=d97.x,d97.y,d97.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta98
 ARG=d98.x,d98.y,d98.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta99
 ARG=d99.x,d99.y,d99.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta100
 ARG=d100.x,d100.y,d100.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta101
 ARG=d101.x,d101.y,d101.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta102
 ARG=d102.x,d102.y,d102.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta103
 ARG=d103.x,d103.y,d103.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta104
 ARG=d104.x,d104.y,d104.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta105
 ARG=d105.x,d105.y,d105.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta106
 ARG=d106.x,d106.y,d106.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta107
 ARG=d107.x,d107.y,d107.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta108
 ARG=d108.x,d108.y,d108.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta109
 ARG=d109.x,d109.y,d109.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta110
 ARG=d110.x,d110.y,d110.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta111
 ARG=d111.x,d111.y,d111.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta112
 ARG=d112.x,d112.y,d112.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta113
 ARG=d113.x,d113.y,d113.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta114
 ARG=d114.x,d114.y,d114.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta115
 ARG=d115.x,d115.y,d115.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta116
 ARG=d116.x,d116.y,d116.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta117
 ARG=d117.x,d117.y,d117.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta118
 ARG=d118.x,d118.y,d118.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta119
 ARG=d119.x,d119.y,d119.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta120
 ARG=d120.x,d120.y,d120.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta121
 ARG=d121.x,d121.y,d121.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta122
 ARG=d122.x,d122.y,d122.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta123
 ARG=d123.x,d123.y,d123.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta124
 ARG=d124.x,d124.y,d124.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta125
 ARG=d125.x,d125.y,d125.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta126
 ARG=d126.x,d126.y,d126.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta127
 ARG=d127.x,d127.y,d127.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta128
 ARG=d128.x,d128.y,d128.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta129
 ARG=d129.x,d129.y,d129.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta130
 ARG=d130.x,d130.y,d130.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta131
 ARG=d131.x,d131.y,d131.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta132
 ARG=d132.x,d132.y,d132.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta133
 ARG=d133.x,d133.y,d133.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta134
 ARG=d134.x,d134.y,d134.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta135
 ARG=d135.x,d135.y,d135.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta136
 ARG=d136.x,d136.y,d136.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta137
 ARG=d137.x,d137.y,d137.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta138
 ARG=d138.x,d138.y,d138.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta139
 ARG=d139.x,d139.y,d139.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta140
 ARG=d140.x,d140.y,d140.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta141
 ARG=d141.x,d141.y,d141.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta142
 ARG=d142.x,d142.y,d142.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta143
 ARG=d143.x,d143.y,d143.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta144
 ARG=d144.x,d144.y,d144.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta145
 ARG=d145.x,d145.y,d145.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta146
 ARG=d146.x,d146.y,d146.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta147
 ARG=d147.x,d147.y,d147.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta148
 ARG=d148.x,d148.y,d148.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta149
 ARG=d149.x,d149.y,d149.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta150
 ARG=d150.x,d150.y,d150.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta151
 ARG=d151.x,d151.y,d151.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta152
 ARG=d152.x,d152.y,d152.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta153
 ARG=d153.x,d153.y,d153.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta154
 ARG=d154.x,d154.y,d154.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta155
 ARG=d155.x,d155.y,d155.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta156
 ARG=d156.x,d156.y,d156.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta157
 ARG=d157.x,d157.y,d157.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta158
 ARG=d158.x,d158.y,d158.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta159
 ARG=d159.x,d159.y,d159.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta160
 ARG=d160.x,d160.y,d160.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta161
 ARG=d161.x,d161.y,d161.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta162
 ARG=d162.x,d162.y,d162.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta163
 ARG=d163.x,d163.y,d163.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta164
 ARG=d164.x,d164.y,d164.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta165
 ARG=d165.x,d165.y,d165.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta166
 ARG=d166.x,d166.y,d166.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta167
 ARG=d167.x,d167.y,d167.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta168
 ARG=d168.x,d168.y,d168.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta169
 ARG=d169.x,d169.y,d169.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta170
 ARG=d170.x,d170.y,d170.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta171
 ARG=d171.x,d171.y,d171.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta172
 ARG=d172.x,d172.y,d172.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta173
 ARG=d173.x,d173.y,d173.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta174
 ARG=d174.x,d174.y,d174.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta175
 ARG=d175.x,d175.y,d175.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta176
 ARG=d176.x,d176.y,d176.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta177
 ARG=d177.x,d177.y,d177.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta178
 ARG=d178.x,d178.y,d178.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta179
 ARG=d179.x,d179.y,d179.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta180
 ARG=d180.x,d180.y,d180.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta181
 ARG=d181.x,d181.y,d181.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta182
 ARG=d182.x,d182.y,d182.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta183
 ARG=d183.x,d183.y,d183.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta184
 ARG=d184.x,d184.y,d184.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta185
 ARG=d185.x,d185.y,d185.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta186
 ARG=d186.x,d186.y,d186.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta187
 ARG=d187.x,d187.y,d187.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta188
 ARG=d188.x,d188.y,d188.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta189
 ARG=d189.x,d189.y,d189.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta190
 ARG=d190.x,d190.y,d190.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta191
 ARG=d191.x,d191.y,d191.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta192
 ARG=d192.x,d192.y,d192.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta193
 ARG=d193.x,d193.y,d193.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta194
 ARG=d194.x,d194.y,d194.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta195
 ARG=d195.x,d195.y,d195.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta196
 ARG=d196.x,d196.y,d196.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta197
 ARG=d197.x,d197.y,d197.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta198
 ARG=d198.x,d198.y,d198.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta199
 ARG=d199.x,d199.y,d199.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta200
 ARG=d200.x,d200.y,d200.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta201
 ARG=d201.x,d201.y,d201.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta202
 ARG=d202.x,d202.y,d202.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta203
 ARG=d203.x,d203.y,d203.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta204
 ARG=d204.x,d204.y,d204.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta205
 ARG=d205.x,d205.y,d205.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta206
 ARG=d206.x,d206.y,d206.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta207
 ARG=d207.x,d207.y,d207.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta208
 ARG=d208.x,d208.y,d208.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta209
 ARG=d209.x,d209.y,d209.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta210
 ARG=d210.x,d210.y,d210.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta211
 ARG=d211.x,d211.y,d211.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta212
 ARG=d212.x,d212.y,d212.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta213
 ARG=d213.x,d213.y,d213.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta214
 ARG=d214.x,d214.y,d214.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta215
 ARG=d215.x,d215.y,d215.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta216
 ARG=d216.x,d216.y,d216.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta217
 ARG=d217.x,d217.y,d217.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta218
 ARG=d218.x,d218.y,d218.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta219
 ARG=d219.x,d219.y,d219.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta220
 ARG=d220.x,d220.y,d220.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta221
 ARG=d221.x,d221.y,d221.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta222
 ARG=d222.x,d222.y,d222.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta223
 ARG=d223.x,d223.y,d223.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta224
 ARG=d224.x,d224.y,d224.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta225
 ARG=d225.x,d225.y,d225.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta226
 ARG=d226.x,d226.y,d226.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta227
 ARG=d227.x,d227.y,d227.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta228
 ARG=d228.x,d228.y,d228.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta229
 ARG=d229.x,d229.y,d229.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta230
 ARG=d230.x,d230.y,d230.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta231
 ARG=d231.x,d231.y,d231.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta232
 ARG=d232.x,d232.y,d232.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta233
 ARG=d233.x,d233.y,d233.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta234
 ARG=d234.x,d234.y,d234.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta235
 ARG=d235.x,d235.y,d235.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta236
 ARG=d236.x,d236.y,d236.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta237
 ARG=d237.x,d237.y,d237.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta238
 ARG=d238.x,d238.y,d238.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta239
 ARG=d239.x,d239.y,d239.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 MATHEVAL ...
 LABEL=theta240
 ARG=d240.x,d240.y,d240.z
-FUNC=acos(y/sqrt(x*x+y*y+z*z))
-PERIODIC=NO
+FUNC=atan(sqrt(x*x+z*z)/y)
+PERIODIC={-pi,pi}
 ... MATHEVAL
 
 avgtheta: COMBINE ARG=theta1,theta2,theta3,theta4,theta5,theta6,theta7,theta8,theta9,theta10,theta11,theta12,theta13,theta14,theta15,theta16,theta17,theta18,theta19,theta20,theta21,theta22,theta23,theta24,theta25,theta26,theta27,theta28,theta29,theta30,theta31,theta32,theta33,theta34,theta35,theta36,theta37,theta38,theta39,theta40,theta41,theta42,theta43,theta44,theta45,theta46,theta47,theta48,theta49,theta50,theta51,theta52,theta53,theta54,theta55,theta56,theta57,theta58,theta59,theta60,theta61,theta62,theta63,theta64,theta65,theta66,theta67,theta68,theta69,theta70,theta71,theta72,theta73,theta74,theta75,theta76,theta77,theta78,theta79,theta80,theta81,theta82,theta83,theta84,theta85,theta86,theta87,theta88,theta89,theta90,theta91,theta92,theta93,theta94,theta95,theta96,theta97,theta98,theta99,theta100,theta101,theta102,theta103,theta104,theta105,theta106,theta107,theta108,theta109,theta110,theta111,theta112,theta113,theta114,theta115,theta116,theta117,theta118,theta119,theta120,theta121,theta122,theta123,theta124,theta125,theta126,theta127,theta128,theta129,theta130,theta131,theta132,theta133,theta134,theta135,theta136,theta137,theta138,theta139,theta140,theta141,theta142,theta143,theta144,theta145,theta146,theta147,theta148,theta149,theta150,theta151,theta152,theta153,theta154,theta155,theta156,theta157,theta158,theta159,theta160,theta161,theta162,theta163,theta164,theta165,theta166,theta167,theta168,theta169,theta170,theta171,theta172,theta173,theta174,theta175,theta176,theta177,theta178,theta179,theta180,theta181,theta182,theta183,theta184,theta185,theta186,theta187,theta188,theta189,theta190,theta191,theta192,theta193,theta194,theta195,theta196,theta197,theta198,theta199,theta200,theta201,theta202,theta203,theta204,theta205,theta206,theta207,theta208,theta209,theta210,theta211,theta212,theta213,theta214,theta215,theta216,theta217,theta218,theta219,theta220,theta221,theta222,theta223,theta224,theta225,theta226,theta227,theta228,theta229,theta230,theta231,theta232,theta233,theta234,theta235,theta236,theta237,theta238,theta239,theta240 COEFFICIENTS=0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667,0.00416667 PERIODIC={-pi,pi}
 
-RESTRAINT ARG=avgtheta AT=-0.262 KAPPA=75000.0 LABEL=restraint
+RESTRAINT ARG=avgtheta AT=-0.262 KAPPA=500.0 LABEL=restraint
 
 PRINT ARG=avgtheta STRIDE=10
 
