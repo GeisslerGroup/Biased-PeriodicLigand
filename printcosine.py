@@ -11,11 +11,11 @@ str_out = ""
 count = 1
 
 for i in range(3840, 6000, 18):
-    str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+9)
+    str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+12)
     count = count + 1
 
 for i in range(8160, 10320, 18):
-    str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+9)
+    str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+12)
     count = count + 1
 
 for i in range(1, count):
