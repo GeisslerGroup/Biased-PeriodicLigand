@@ -67,7 +67,7 @@ dihedral_coeff	* 1.4114 -0.2711 3.1458 0	# For all dihedrals, define Ki, note th
 						# Turns off the lj interaction btw 1st, 2nd,
 						# and 3rd nearest neighbours.
 
-thermo		100
+thermo		1000
 thermo_style	custom step temp c_MyTemp etotal ke pe 
 #thermo_modify 	flush yes
 
@@ -76,8 +76,8 @@ reset_timestep	1
 fix		1 ligand/solvent nvt temp ${TargetT} ${TargetT} 50
 fix_modify	1 temp MyTemp
 fix		plumed all plumed plumedfile theta.plu outfile theta.out
-dump		1 all xyz 100 dump.theta.${TargetT}
-run		10000 post no
+dump		1 all xyz 1000 dump.theta.${TargetT}
+run		100000 post no
 write_restart	restart.theta.${TargetT}
 unfix		1
 undump		1
