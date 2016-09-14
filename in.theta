@@ -76,8 +76,8 @@ reset_timestep	1
 fix		1 ligand/solvent nvt temp ${TargetT} ${TargetT} 50
 fix_modify	1 temp MyTemp
 fix		plumed all plumed plumedfile theta.plu outfile theta.out
-dump		1 all xyz 1000 dump.theta.${TargetT}
-run		100000 post no
-write_restart	restart.theta.${TargetT}
+dump		1 all xyz 1000 dump.movingtheta.${TargetT}
+run		75000 post no
+write_restart	restart.movingtheta.${TargetT}
 unfix		1
 undump		1
