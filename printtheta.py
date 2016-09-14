@@ -30,6 +30,7 @@ for i in range(8160, 10320, 18):
     str_out = str_out + "d{}7: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+11, i+18)
     count = count + 1
 
+# START HERE!!!
 for i in range(1, count):
     str_out = str_out + "\nMATHEVAL ...\n"
     str_out = str_out + "LABEL=theta{}\nARG=d{}.x,d{}.y,d{}.z,".format(i, i, i, i)
