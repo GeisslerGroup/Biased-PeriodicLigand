@@ -11,11 +11,23 @@ str_out = ""
 count = 1
 
 for i in range(3840, 6000, 18):
-    str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+9)
+    str_out = str_out + "d{}1: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+5, i+12)
+    str_out = str_out + "d{}2: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+6, i+13)
+    str_out = str_out + "d{}3: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+7, i+14)
+    str_out = str_out + "d{}4: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+8, i+15)
+    str_out = str_out + "d{}5: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+9, i+16)
+    str_out = str_out + "d{}6: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+10, i+17)
+    str_out = str_out + "d{}7: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+11, i+18)
     count = count + 1
 
 for i in range(8160, 10320, 18):
-    str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+9)
+    str_out = str_out + "d{}1: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+5, i+12)
+    str_out = str_out + "d{}2: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+6, i+13)
+    str_out = str_out + "d{}3: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+7, i+14)
+    str_out = str_out + "d{}4: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+8, i+15)
+    str_out = str_out + "d{}5: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+9, i+16)
+    str_out = str_out + "d{}6: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+10, i+17)
+    str_out = str_out + "d{}7: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i+11, i+18)
     count = count + 1
 
 for i in range(1, count):
