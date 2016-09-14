@@ -44,7 +44,7 @@ str_out = str_out + "\navgtheta: COMBINE ARG="
 for i in range(1, count):
     for j in range(1, 8):
         str_out = str_out + "theta{}{},".format(i, j)
-    str_out = str_out.rstrip(",")
+str_out = str_out.rstrip(",")
 
 str_out = str_out + " COEFFICIENTS="
 
@@ -52,7 +52,7 @@ coeff = 1/(240*7.0)
 for i in range(1, count):
     for j in range(1, 8):
         str_out = str_out + "{:1.9f},".format(coeff)
-    str_out = str_out.rstrip(",")
+str_out = str_out.rstrip(",")
 
 str_out = str_out + " PERIODIC={-pi,pi}"
 
