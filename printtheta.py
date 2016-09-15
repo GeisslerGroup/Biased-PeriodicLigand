@@ -38,9 +38,9 @@ for i in range(8160, 10320, 18):
 for i in range(1, count):
     for j in range(1, 8):
         str_out = str_out + "\nMATHEVAL ...\n"
-        str_out = str_out + "LABEL=theta{}{}\nARG=d{}{}.x,d{}{}.y,d{}{}.z,".format(i, j, i, j, i, j, i, j)
+        str_out = str_out + "LABEL=theta{}{}\nARG=d{}{}.y,d{}{}.z,".format(i, j, i, j, i, j, i, j)
         str_out = str_out.rstrip(",")
-        str_out = str_out + "\nFUNC=atan(z/y)\n"
+        str_out = str_out + "\nFUNC=atan(y/x)\n"
         str_out = str_out + "PERIODIC={-pi,pi}\n"
         str_out = str_out + "... MATHEVAL\n"
 
