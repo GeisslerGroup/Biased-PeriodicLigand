@@ -26,7 +26,7 @@ for i in range(1, count):
     str_out = str_out + "\nMATHEVAL ...\n"
     str_out = str_out + "LABEL=theta{}\nARG=d{}.x,d{}.y,d{}.z,".format(i, i, i, i)
     str_out = str_out.rstrip(",")
-    str_out = str_out + "\nFUNC=atan(sqrt(x*x+z*z)/y)\n"
+    str_out = str_out + "\nFUNC=atan(z/y)\n"
     str_out = str_out + "PERIODIC={-pi,pi}\n"
     str_out = str_out + "... MATHEVAL\n"
 
