@@ -49,7 +49,7 @@ print np.mean(unbiased_data)
 print np.std(unbiased_data)
 print np.mean(hist_data)
 print np.std(hist_data)
-bins = np.linspace(0.0, 1.0, 100)
+bins = np.linspace(0.0, 1.70, 100)
 hist, bins = np.histogram(hist_data, bins = bins, density = True)
 unbiased_hist, bins = np.histogram(unbiased_data, bins = bins, density = True)
 bin_centres = bins[1:] * 0.5 + bins[:-1] * 0.5
