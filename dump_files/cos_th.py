@@ -22,8 +22,14 @@ x1 = 0.0
 y1 = 0.0
 z1 = 0.0
 f = open("theta" + args.bias + ".txt","w")
+xb0 = 0.0
+yb0 = -54.7217
+zb0 = 0.0
+xb1 = 82.4293
+yb1 = 54.7217
+zb1 = 81.0040
 
-start = 100 * 18
+start = 100 * 18 * 240
 
 for i in range (start,size,18):
   if (i + 17 < size):
@@ -35,7 +41,8 @@ for i in range (start,size,18):
     z1 = data[i+9,3]
     x_vec = x1 - x0
     y_vec = y1 - y0
-    z_vec = z1 - z0
+    z_vec = (z1 - z0) / (zb1 - zb0)
+    z_vec = (z_vec - round(z_vec)) * (zb1 - zb0)
     th = -np.arctan(z_vec / y_vec)
     f.write("%4.5f\n" %(th))
 
@@ -49,7 +56,7 @@ print np.mean(unbiased_data)
 print np.std(unbiased_data)
 print np.mean(hist_data)
 print np.std(hist_data)
-bins = np.linspace(0.0, 1.70, 100)
+bins = np.linspace(-1.70, 1.70, 400)
 hist, bins = np.histogram(hist_data, bins = bins, density = True)
 unbiased_hist, bins = np.histogram(unbiased_data, bins = bins, density = True)
 bin_centres = bins[1:] * 0.5 + bins[:-1] * 0.5
