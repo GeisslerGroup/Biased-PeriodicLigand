@@ -12,6 +12,7 @@ args   = parser.parse_args()
 
 at_range = np.arange(args.at_lower, args.at_upper+args.at_step, args.at_step)
 str_out = ""
+str_out = str_out + "UNITS ENERGY=kcal/mol\n"
 count = 1
 
 for i in range(3840, 6000, 18):
