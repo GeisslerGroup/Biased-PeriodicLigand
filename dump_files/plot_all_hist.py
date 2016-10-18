@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 namelist = np.arange(1.15,1.405,0.025)
 namelist = [-0.72,-0.68,-0.65]
+namelist = [-0.74]
 bins = np.linspace(-0.70, 1.70, 400)
 bins_OG = bins[1:] * 0.5 + bins[:-1] * 0.5
 
@@ -13,13 +14,9 @@ plt.figure(0)
 k = 20000.0
 temp = 340.0
 
+# spatially average angles at every timestep to plot <theta_z>
 for i in namelist:
     c = next(color)
-#     if (np.ceil(i*1000)%100 == 50):
-#         data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/theta' + str(i) + '0.txt', delimiter=' ')
-#     elif (np.ceil(i*1000)%100 == 0): 
-#         data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/theta' + str(i) + '00.txt', delimiter=' ')
-#     else:
     data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/theta' + str(i) + '.txt', delimiter=' ')
     data = np.mean(data.reshape((-1, 240)), axis=1)
     total_prob, bins = np.histogram(data, bins=bins, density=True)
@@ -40,14 +37,10 @@ plt.plot(bins_OG*180.0/np.pi, eq_prob, color='blue', linewidth=1, label='eqlbm')
 plt.legend(loc='upper left')
 plt.show()
 
+# plot raw histogram without averaging spatially
 color = iter(plt.cm.copper(np.linspace(0,1,N_sims)))
 for i in namelist:
     c = next(color)
-#     if (np.ceil(i*1000)%100 == 50):
-#         data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/theta' + str(i) + '0.txt', delimiter=' ')
-#     elif (np.ceil(i*1000)%100 == 0): 
-#         data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/theta' + str(i) + '00.txt', delimiter=' ')
-#     else:
     data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/theta' + str(i) + '.txt', delimiter=' ')
     print [ (itr_where % 240, itr_where/240) for itr_where in np.where(data < -1.0)[0] ]
     total_prob, bins = np.histogram(data, bins=bins, density=True)
