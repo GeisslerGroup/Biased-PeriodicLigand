@@ -18,18 +18,21 @@ if args.row == "x":
     print max_val
     min_val = min([min(row) for row in mean_tz])
     mid = (max_val - min_val) * 0.5
+    mid = 0.65 
+#     mid = 42.5 * np.pi / 180.0
+    print mid
     print min_val
     if args.clean:
-        mean_tz[mean_tz < (min_val + 0.1)*np.pi/180.0] = mid*np.pi/180.0	# set disordered angles to mid_val
+        mean_tz[mean_tz < (min_val + 0.1)] = mid	# set disordered angles to mid_val
     # mean_tz = (mean_tz - min_val) / (max_val - min_val)
     mean_tz = np.transpose(mean_tz)
     
     plt.figure()
-    plt.imshow(mean_tz, aspect=20, cmap="seismic", origin="lower")
+    plt.imshow(mean_tz, aspect=1000, cmap="seismic", origin="lower")
     plt.yticks(np.arange(0, 13, 1))
     plt.ylim(-0.5,11.5)
     for i in np.arange(-0.5,12,0.5):
-        plt.hlines(i, 0, 400, linestyle='solid', linewidth=2)
+        plt.hlines(i, 0, 10000, linestyle='solid', linewidth=2)
     plt.show()
 
 if args.row == "z":
