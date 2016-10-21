@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 save = "hist" + args.bias + ".png"
 
-data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/lig.' + args.bias, delimiter=' ')
+data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/lig.' + args.bias + '.10k', delimiter=' ')
 
 size = len(data)
 x0 = 0.0
@@ -30,6 +30,7 @@ yb1 = 54.7217
 zb1 = 81.0040
 
 start = 100 * 18 * 240
+start=0
 
 for i in range (start,size,18):
   if (i + 17 < size):

@@ -1,3 +1,7 @@
+*.tga
+*.pov
+*.png
+*.dat
 lig.*
 *.txt
 dump.*

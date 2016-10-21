@@ -9,30 +9,40 @@ parser.add_argument("-row", choices=["x","z"], help="which directiion to average
 args = parser.parse_args()
 
 data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/theta' + args.bias + '.txt', delimiter=' ')
-
 data = data.reshape((-1,20,12))
+
+plt.rc('text', usetex=True)
+plt.rc('font', family='serif')
+
+data_txz = np.zeros(data.shape)
+data_txz[:, ::2, :] = data[:, 0:10, :]
+data_txz[:, 1::2, :] = data[:, 10:20, :]
+data = data_txz
 
 if args.row == "x":
     mean_tz = np.mean(data, axis=1)
     max_val = max([max(row) for row in mean_tz])
     print max_val
     min_val = min([min(row) for row in mean_tz])
+#     min_val = 0.25 
     mid = (max_val - min_val) * 0.5
-    mid = 0.65 
+#     mid = 0.65 
 #     mid = 42.5 * np.pi / 180.0
     print mid
     print min_val
     if args.clean:
         mean_tz[mean_tz < (min_val + 0.1)] = mid	# set disordered angles to mid_val
-    # mean_tz = (mean_tz - min_val) / (max_val - min_val)
+    mean_tz = (mean_tz - min_val) / (max_val - min_val)
     mean_tz = np.transpose(mean_tz)
     
     plt.figure()
-    plt.imshow(mean_tz, aspect=1000, cmap="seismic", origin="lower")
+    plt.imshow(mean_tz, aspect=1000, cmap="seismic", origin="lower", vmin=min_val, vmax=max_val, interpolation="none")
+#     plt.imshow(mean_tz, aspect=1000, cmap="seismic", origin="lower", vmin=30.0, vmax=60.0)
     plt.yticks(np.arange(0, 13, 1))
     plt.ylim(-0.5,11.5)
     for i in np.arange(-0.5,12,0.5):
         plt.hlines(i, 0, 10000, linestyle='solid', linewidth=2)
+    plt.colorbar()
     plt.show()
 
 if args.row == "z":
@@ -47,10 +57,56 @@ if args.row == "z":
     mean_tx = np.transpose(mean_tx)
     
     plt.figure()
-    plt.imshow(mean_tx, aspect=20, cmap="seismic", origin="lower")
+    plt.imshow(mean_tx, aspect=500, cmap="plasma", origin="lower", vmin=30*np.pi/180, vmax=53*np.pi/180, interpolation="none")
     plt.yticks(np.arange(0, 21, 1))
     # plt.ylim(-0.5,20.5)
-    for i in np.arange(-0.5,20,0.5):
-        plt.hlines(i, 0, 400, linestyle='solid', linewidth=2)
+    for i in np.arange(0,20,1):
+        plt.hlines(i-0.5, 0, 10000, linestyle='solid', linewidth=2)
+    plt.colorbar()
+    plt.xlabel(r'$t$', fontsize=32)
+    plt.ylabel(r'$\langle\theta_z\rangle_z$', fontsize=32)
+    plt.xticks(fontsize=28, fontweight='bold')
+    plt.yticks(fontsize=28, fontweight='bold')
+    plt.show()
+
+    sub_mean = mean_tx[:,0:100]
+    plt.clf()
+    plt.imshow(sub_mean, aspect=5, cmap="plasma", origin="lower", vmin=30*np.pi/180, vmax=53*np.pi/180, interpolation="none")
+    plt.yticks(np.arange(0, 21, 1))
+    # plt.ylim(-0.5,20.5)
+    for i in np.arange(0,20,1):
+        plt.hlines(i-0.5, 0, 100, linestyle='solid', linewidth=2)
+    plt.colorbar()
+    plt.xlabel(r'$t$', fontsize=32)
+    plt.ylabel(r'$\langle\theta_z\rangle_z$', fontsize=32)
+    plt.xticks(fontsize=28, fontweight='bold')
+    plt.yticks(fontsize=28, fontweight='bold')
+    plt.show()
+
+    plt.figure(3)
+    plt.imshow(mean_tx, aspect=500, cmap="plasma", origin="lower", vmin=5*np.pi/180, vmax=53*np.pi/180, interpolation="none")
+    plt.yticks(np.arange(0, 21, 1))
+    # plt.ylim(-0.5,20.5)
+    for i in np.arange(0,20,1):
+        plt.hlines(i-0.5, 0, 10000, linestyle='solid', linewidth=2)
+    plt.colorbar()
+    plt.xlabel(r'$t$', fontsize=32)
+    plt.ylabel(r'$\langle\theta_z\rangle_z$', fontsize=32)
+    plt.xticks(fontsize=28, fontweight='bold')
+    plt.yticks(fontsize=28, fontweight='bold')
+    plt.show()
+
+    sub_mean = mean_tx[:,0:100]
+    plt.clf()
+    plt.imshow(sub_mean, aspect=5, cmap="plasma", origin="lower", vmin=5*np.pi/180, vmax=53*np.pi/180, interpolation="none")
+    plt.yticks(np.arange(0, 21, 1))
+    # plt.ylim(-0.5,20.5)
+    for i in np.arange(0,20,1):
+        plt.hlines(i-0.5, 0, 100, linestyle='solid', linewidth=2)
+    plt.colorbar()
+    plt.xlabel(r'$t$', fontsize=32)
+    plt.ylabel(r'$\langle\theta_z\rangle_z$', fontsize=32)
+    plt.xticks(fontsize=28, fontweight='bold')
+    plt.yticks(fontsize=28, fontweight='bold')
     plt.show()
 
