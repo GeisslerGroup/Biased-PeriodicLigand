@@ -32,7 +32,7 @@ eq_data = -eq_data * np.pi / 180.0
 eq_data = np.mean(eq_data.reshape((-1, 240)), axis=1)
 eq_prob, bins = np.histogram(eq_data, bins = bins, density=True)
 print np.mean(eq_data), np.std(eq_data)
-plt.plot(bins_OG, eq_prob, color='blue', linewidth=1, label='eqlbm')
+plt.plot(bins_OG, eq_prob*180/np.pi, color='blue', linewidth=1, label='eqlbm')
 
 plt.legend(loc='upper left')
 plt.show()

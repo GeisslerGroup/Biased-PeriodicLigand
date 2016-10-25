@@ -51,6 +51,12 @@ for i in range(len(at_range)):
     str_out = str_out + "  STEP{}={} AT{}={} KAPPA{}={}\n".format(i, i*args.timestep, i, at_range[i], i, args.bias)
 str_out = str_out + "... MOVINGRESTRAINT\n"
 
-str_out = str_out + "\nPRINT ARG=avgtheta STRIDE=10\n"
+# str_out = str_out + "\nPRINT ARG="
+# for i in range(1, count):
+#     str_out = str_out + "theta{},".format(i)
+# str_out = str_out + ",avgtheta STRIDE=10\n"
+
+str_out = str_out + "\nPRINT ARG=" + ",".join(["theta{}".format(i) for i in range(1,count)]) + ",avgtheta STRIDE=10\n"
 str_out = str_out.rstrip(",")
+
 print str_out
