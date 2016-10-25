@@ -15,11 +15,11 @@ str_out = ""
 str_out = str_out + "UNITS ENERGY=kcal/mol\n"
 count = 1
 
-for i in range(3840, 6000, 18):
+for i in range(3841, 6001, 18):
     str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+9)
     count = count + 1
 
-for i in range(8160, 10320, 18):
+for i in range(8161, 10321, 18):
     str_out = str_out + "d{}: DISTANCE ATOMS={},{} COMPONENTS\n".format(count, i, i+9)
     count = count + 1
 
@@ -45,16 +45,18 @@ str_out = str_out.rstrip(",")
 
 str_out = str_out + " PERIODIC={-pi,pi}"
 
-str_out = str_out + "\n\nMOVINGRESTRAINT ...\n"
-str_out = str_out + "  ARG=avgtheta\n"
-for i in range(len(at_range)):
-    str_out = str_out + "  STEP{}={} AT{}={} KAPPA{}={}\n".format(i, i*args.timestep, i, at_range[i], i, args.bias)
-str_out = str_out + "... MOVINGRESTRAINT\n"
+# str_out = str_out + "\n\nMOVINGRESTRAINT ...\n"
+# str_out = str_out + "  ARG=avgtheta\n"
+# for i in range(len(at_range)):
+#     str_out = str_out + "  STEP{}={} AT{}={} KAPPA{}={}\n".format(i, i*args.timestep, i, at_range[i], i, args.bias)
+# str_out = str_out + "... MOVINGRESTRAINT\n"
 
 # str_out = str_out + "\nPRINT ARG="
 # for i in range(1, count):
 #     str_out = str_out + "theta{},".format(i)
 # str_out = str_out + ",avgtheta STRIDE=10\n"
+
+str_out = str_out + "\n\nRESTRAINT ARG=avgtheta AT={} KAPPA={}\n".format(args.at_lower, args.bias)
 
 str_out = str_out + "\nPRINT ARG=" + ",".join(["theta{}".format(i) for i in range(1,count)]) + ",avgtheta STRIDE=10\n"
 str_out = str_out.rstrip(",")
