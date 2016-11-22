@@ -12,7 +12,8 @@ args = parser.parse_args()
 
 save = "hist" + args.bias + ".png"
 
-data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/lig.' + args.bias + '.10k', delimiter=' ')
+data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/lig.' + args.bias, delimiter=' ')
+# data = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/dump_files/lig.txt', delimiter=' ')
 
 size = len(data)
 x0 = 0.0
