@@ -12,8 +12,8 @@ dihedral_style	opls				# E = K1/2(1+cos(phi)) + K2/2(1-cos(2phi)) + K3/2(1+cos(3
 
 variable	TargetT equal 340
 
-read_data	new.340
-# read_restart	restart.340
+# read_data	new.340
+read_restart	restart.340
 #read_restart	../restart.${TargetT}
 
 group 		ligand/solvent type 1 2 5 6
@@ -77,8 +77,8 @@ reset_timestep	1
 fix		1 ligand/solvent nvt temp ${TargetT} ${TargetT} 50
 fix_modify	1 temp MyTemp
 fix		plumed all plumed plumedfile cosine.plu outfile cosine.out
-dump		1 all xyz 1000 dump.${TargetT}
+dump		1 all xyz 1000 dump.newbias.${TargetT}
 run		5000000 post no
-write_restart	restart.${TargetT}
+write_restart	restart.newbias${TargetT}
 unfix		1
 undump		1
