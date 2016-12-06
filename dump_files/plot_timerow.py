@@ -60,8 +60,8 @@ if args.row == "z":
     
     plt.figure()
 #     plt.subplot(2,1,1)
-    plt.imshow(mean_tx, aspect=len(data)/20, cmap="plasma", origin="lower", vmin=30*np.pi/180, vmax=53*np.pi/180, interpolation="none")
-#     plt.imshow(mean_tx, aspect=len(data)/20, cmap="plasma", origin="lower", vmin=min_val, vmax=max_val, interpolation="none")
+#     plt.imshow(mean_tx, aspect=len(data)/20, cmap="plasma", origin="lower", vmin=30*np.pi/180, vmax=53*np.pi/180, interpolation="none")
+    plt.imshow(mean_tx, aspect=len(data)/20, cmap="plasma", origin="lower", vmin=min_val, vmax=max_val, interpolation="none")
     plt.yticks(np.arange(0, 21, 1))
     # plt.ylim(-0.5,20.5)
     for i in np.arange(0,20,1):

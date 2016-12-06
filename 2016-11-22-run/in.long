@@ -70,23 +70,19 @@ dihedral_coeff	* 1.4114 -0.2711 3.1458 0	# For all dihedrals, define Ki, note th
 						# Turns off the lj interaction btw 1st, 2nd,
 						# and 3rd nearest neighbours.
 
-thermo		10
+thermo		1000
 thermo_style	custom step temp c_MyTemp etotal ke pe 
 #thermo_modify 	flush yes
 
-compute		1 all property/local batom1 batom2 btype
 reset_timestep	1
 fix		1 ligand/solvent nvt temp ${TargetT} ${TargetT} 50
 fix_modify	1 temp MyTemp
 # fix		2 all deform 100 y final -70.0 70.0
-fix		2 all deform 100 y vel 0.0005 units box remap x
-fix		plumed all plumed plumedfile cosine.plu outfile cosine.out
-dump		1 all xyz 10 dump.${TargetT}
-# dump		1 all local 10 dump.${TargetT} index c_1[1] c_1[2] c_1[3]
-# dump		1 all atom 10 dump.${TargetT}
-run		500 post no
-unfix		2
-# run		50000 post no
-# write_restart	restart.file
+# fix		2 all deform 100 y vel 0.0005 units box remap x
+# fix		plumed all plumed plumedfile cosine.plu outfile cosine.out
+dump		1 all xyz 1000 dump.${TargetT}
+run		50000 post no
+# unfix		2
+write_restart	restart.file
 unfix		1
 undump		1
