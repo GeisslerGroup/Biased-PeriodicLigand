@@ -12,8 +12,8 @@ dihedral_style	opls				# E = K1/2(1+cos(phi)) + K2/2(1-cos(2phi)) + K3/2(1+cos(3
 
 variable	TargetT equal 340
 
-# read_data	new.340
-read_restart	restart.340
+read_data	new.340
+# read_restart	restart.340
 #read_restart	../restart.${TargetT}
 
 group 		ligand/solvent type 1 2 5 6
