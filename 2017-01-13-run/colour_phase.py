@@ -25,15 +25,15 @@ with open("dump.stripped") as f:
                 raise ValueError("Hit atom type 1 but not in a molecule!")
             mol_dat.append(l_arr)
             in_mol=False
-#             print mol_dat
             y0 = mol_dat[0][2]
             z0 = mol_dat[0][3]
-            y1 = mol_dat[9][2]
-            z1 = mol_dat[9][3]
+            y1 = mol_dat[17][2]
+            z1 = mol_dat[17][3]
             y_vec = y1 - y0
             z_vec = (z1 - z0) / (zb1 - zb0)
             z_vec = (z_vec - round(z_vec)) * (zb1 - zb0)
             th = -np.arctan(z_vec / y_vec)
+#             print y0, z0, y1, z1, y_vec, z_vec, th
             for line in mol_dat:
                 if (th > 0.7):
                     print("{} {} {} {}".format(8, line[1], line[2], line[3]))
