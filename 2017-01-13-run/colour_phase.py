@@ -3,10 +3,12 @@ import numpy as np
 in_mol=False
 zb0 = 0.0
 zb1 = 81.0040
-# dump = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/2017-01-13-run/dump.stripped')
+n_atoms = 22116
 
 with open("dump.stripped") as f:
     for t,l in enumerate(f):
+        if (t % n_atoms == 0):
+            print "22116\nComment line"
         l_arr = l.split()
 #         print(l_arr)
         l_arr[1] = float(l_arr[1])
@@ -32,11 +34,11 @@ with open("dump.stripped") as f:
             z_vec = (z1 - z0) / (zb1 - zb0)
             z_vec = (z_vec - round(z_vec)) * (zb1 - zb0)
             th = -np.arctan(z_vec / y_vec)
-            if (th > 0.7):
-                mol_dat[0] == '8'
-#             print("fixed!")
             for line in mol_dat:
-                print("{} {} {} {}".format(line[0], line[1], line[2], line[3]))
+                if (th > 0.7):
+                    print("{} {} {} {}".format(8, line[1], line[2], line[3]))
+                else:
+                    print("{} {} {} {}".format(line[0], line[1], line[2], line[3]))
         else:
             print(l.strip())
 
