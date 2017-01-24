@@ -1,7 +1,6 @@
 import numpy as np
 import random
 
-in_mol=False
 zb0 = 0.0
 zb1 = 81.0040
 n_atoms = 22116
@@ -13,25 +12,17 @@ O_used = 0
 Ne_used = 0
 data = []
 
-with open("dump.stripped") as f:
-    for t,l in enumerate(f):
-        l_arr = l.split()
-        data.append(l_arr)
-
-data = np.array(data)
-# print data.shape
-output = []
-
-for i in xrange(0, len(data), n_atoms):
-#    print i
-
+# process a single frame and assign Ne or O to ligands
+def analyseFrame(data):
+    newdata = np.zeros((n_atoms, 5))
     all_O = False
     O_used = 0
     Ne_used = 0
     all_Ne = False
+    in_mol=False
+    count = 0
 
-    # process a single frame and assign Ne or O to ligands
-    for j in xrange(i, i+n_atoms):
+    for j in xrange(len(newdata)):
         if (data[j][0] == '2' and float(data[j][2]) > 0 and not in_mol):
             in_mol=True
             mol_dat = []
@@ -54,54 +45,85 @@ for i in xrange(0, len(data), n_atoms):
             th = -np.arctan(z_vec / y_vec)
             if (th > 0.5):
                 for k in xrange(j-17, j+1, 1):
-                    data[k][0] = '8'
+                    newdata[count][0] = '8'
+                    newdata[count][1] = data[k][1]
+                    newdata[count][2] = data[k][2]
+                    newdata[count][3] = data[k][3]
+                    newdata[count][4] = th
                     O_used = O_used + 1
+                    count = count + 1
             else:
                for k in xrange(j-17, j+1, 1):
-                    data[k][0] = '10'
+                    newdata[count][0] = '10'
+                    newdata[count][1] = data[k][1]
+                    newdata[count][2] = data[k][2]
+                    newdata[count][3] = data[k][3]
+                    newdata[count][4] = th
                     Ne_used = Ne_used + 1
+                    count = count + 1
         else:
-            continue
+           newdata[count][0] = data[j][0]
+           newdata[count][1] = data[j][1]
+           newdata[count][2] = data[j][2]
+           newdata[count][3] = data[j][3]
+           newdata[count][4] = -100
+           count = count + 1
 
     # find number of remaining bath atoms
     O_left = Rnum_O - O_used
     Ne_left = Rnum_Ne - Ne_used
+    return O_left, Ne_left, newdata
 #     print O_left, Ne_left, O_used, Ne_used
 
-    # write out atoms for that frame
+# write out atoms for that frame
+def writeNewFrame(newdata, O_left, Ne_left):
     print "{}\nComment line".format(n_atoms + Rnum_Ne)
+#    print newdata
 
-    for j in range(i, i+n_atoms):
+    for j in xrange(n_atoms):
         # start by adding all the oxygens
-        if (data[j][0] == '8'):
-            print "{} {} {} {}".format(data[j][0], data[j][1], data[j][2], data[j][3])
+        if (newdata[j][0] == 8.):
+            print "{} {} {} {} {}".format(int(newdata[j][0]), newdata[j][1], newdata[j][2], newdata[j][3], newdata[j][4])
     for k in xrange(O_left):
         print "8 -150 -150 -150"
 
-    for j in range(i, i+n_atoms):
+    for j in xrange(n_atoms):
         # now add all the bath heliums
-        if (data[j][0] == '10'):
-            print "{} {} {} {}".format(data[j][0], data[j][1], data[j][2], data[j][3])
+        if (newdata[j][0] == 10.):
+            print "{} {} {} {} {}".format(int(newdata[j][0]), newdata[j][1], newdata[j][2], newdata[j][3], newdata[j][4])
     for k in xrange(Ne_left):
         print "10 -150 -150 -150"
 
-    for j in range(i, i+n_atoms):
+    for j in xrange(n_atoms):
         # now the CH3lig atoms
-        if (data[j][0] == '2'):
-            print "{} {} {} {}".format(data[j][0], data[j][1], data[j][2], data[j][3]) 
+        if (newdata[j][0] == 2.):
+            print "{} {} {} {} {}".format(int(newdata[j][0]), newdata[j][1], newdata[j][2], newdata[j][3], newdata[j][4]) 
 
-    for j in range(i, i+n_atoms):
+    for j in xrange(n_atoms):
         # now the CH2lig atoms
-        if (data[j][0] == '1'):
-            print "{} {} {} {}".format(data[j][0], data[j][1], data[j][2], data[j][3]) 
+        if (newdata[j][0] == 1.):
+            print "{} {} {} {} {}".format(int(newdata[j][0]), newdata[j][1], newdata[j][2], newdata[j][3], newdata[j][4])
 
-    for j in range(i, i+n_atoms):
-        # now the C atoms
-        if (data[j][0] == '3' or data[j][0] == '4' or data[j][0] == '5' or data[j][0] == '6'):
-            print "{} {} {} {}".format(data[j][0], data[j][1], data[j][2], data[j][3]) 
+    for j in xrange(n_atoms):
+        # now the remaining atoms
+        if (newdata[j][0] == 3. or newdata[j][0] == 4. or newdata[j][0] == 5. or newdata[j][0] == 6.):
+            print "{} {} {} {} {}".format(int(newdata[j][0]), newdata[j][1], newdata[j][2], newdata[j][3], newdata[j][4])
 
-#     if (i == n_atoms * 500):
+#     if (i == n_atoms * 100):
 #         exit(0)
+
+# main run here
+
+with open("dump.stripped") as f:
+    for t,l in enumerate(f):
+        l_arr = l.split()
+        data.append(l_arr)
+        if (t%n_atoms == 0 and t > 0):
+            data = np.array(data)
+            O_left, Ne_left, newdata = analyseFrame(data)
+            writeNewFrame(newdata, O_left, Ne_left)
+            data = []
+
      
 
 
