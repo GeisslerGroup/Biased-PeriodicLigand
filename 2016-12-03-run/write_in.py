@@ -1,14 +1,14 @@
 import numpy as np
 
-ylo = -54.721679678020529
+ylo = -70.0
 L = -2.0 * ylo
-coords = np.genfromtxt('/home/pratima/Biased-PeriodicLigand/2016-12-03-run/solv.xyz')
-start = 26
+coords = np.genfromtxt('test.txt')
+start = 47
 end = start + 22116
 replace=False
 mol_dat = np.zeros(3)
 
-with open("new.340") as f:
+with open("new.351") as f:
     for t, l in enumerate(f):
         l_arr = l.split()
         if (t >= start and t < end):

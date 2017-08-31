@@ -4,7 +4,7 @@ in_mol=False
 ylo = -70.0
 L = -2.0 * ylo
 
-with open("solv_shifted.xyz") as f:
+with open("lastframe.xyz") as f:
     n_atoms = int(f.readline())
     comment = f.readline()
     print n_atoms
@@ -17,7 +17,7 @@ with open("solv_shifted.xyz") as f:
         l_arr[1] = float(l_arr[1])
         l_arr[2] = float(l_arr[2])
         l_arr[3] = float(l_arr[3])
-	if (l_arr[0] == '5' and not in_mol):
+	if ( l_arr[0] == '5' and not in_mol ):
             in_mol=True
 #             print(l_arr)
             mol_dat = []
@@ -30,12 +30,12 @@ with open("solv_shifted.xyz") as f:
             in_mol=False
             mol_dat.append(l_arr)
             y_dat = [line[2] for line in mol_dat]
-            if (max(y_dat) - min(y_dat) > 10):
-#                 print(mol_dat)
-                y_fix = [(y_i + L if y_i < 0 else y_i) for y_i in y_dat]       
-                mol_fix = [[mol_i[0], mol_i[1], y_i, mol_i[3]] for mol_i, y_i in zip(mol_dat, y_fix)]
-                mol_dat = mol_fix
-#                 print("fixed!")
+            if ( l_arr[2] <= -25.0 and (max(y_dat) - min(y_dat)) <= 10 ):
+                y_fix = np.array(y_dat) + L
+            else:
+                y_fix = np.array(y_dat)
+            mol_fix = [[mol_i[0], mol_i[1], y_i, mol_i[3]] for mol_i, y_i in zip(mol_dat, y_fix)]
+            mol_dat = mol_fix
             for line in mol_dat:
 #                 print("{} {:4.5f} {:4.5f} {:4.5f}".format(mol_dat[0], mol_dat[1], mol_dat[2], mol_dat[3]))
                 print("{} {} {} {}".format(line[0], line[1], line[2], line[3]))
